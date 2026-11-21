@@ -9,7 +9,7 @@ void main() async {
   await Supabase.initialize(
     url: 'https://ksgcfxpaooakmvaicswa.supabase.co',
     publishableKey: 'sb_publishable_IXTDzr-3jz11b0AbL2FAzw_HEtQP9Bg',
-  );
+  );//แก้แล้วเป็นของงานใหม่
 
   runApp(
     FlutterFoodTrackerApp(),

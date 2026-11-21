@@ -46,4 +46,4 @@ class Food {
             : (json["foodPerson"] as num).toInt(),
         foodImageUrl: json["foodImageUrl"] as String?,
       );
-}
+}//เสร็จสิ้น

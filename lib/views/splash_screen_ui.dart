@@ -2,7 +2,6 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_food_tracker_app/views/show_all_food_ui.dart';
 
-
 class SplashScreenUi extends StatefulWidget {
   const SplashScreenUi({super.key});
 

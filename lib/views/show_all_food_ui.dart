@@ -1,5 +1,3 @@
-// ignore_for_file: unused_import, sort_child_properties_last
-
 import 'package:flutter/material.dart';
 import 'package:flutter_food_tracker_app/models/food.dart';
 import 'package:flutter_food_tracker_app/services/supabase_service.dart';

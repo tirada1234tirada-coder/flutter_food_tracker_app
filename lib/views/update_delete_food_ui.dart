@@ -1,7 +1,6 @@
 // ignore_for_file: unused_import, use_build_context_synchronously, must_be_immutable
 
 import 'dart:typed_data';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_food_tracker_app/models/food.dart';
 import 'package:flutter_food_tracker_app/services/supabase_service.dart';
