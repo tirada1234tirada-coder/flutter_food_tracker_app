@@ -13,7 +13,7 @@ class SupabaseService {
   Future<String> uploadImageFile(XFile xfile) async {
     // ตั้งชื่อไฟล์เพื่อไม่ให้ซ้ำกันเวลาอยู่ใน bucket
     final newFileName =
-        '${DateTime.now().millisecondsSinceEpoch}_&{xfile.name}';
+        '${DateTime.now().millisecondsSinceEpoch}_${xfile.name}';
 
     // upload ไฟล์
     await supabase.storage.from('food_tracker_bk').uploadBinary(
